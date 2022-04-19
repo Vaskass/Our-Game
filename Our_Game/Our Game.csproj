@@ -1,0 +1,832 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AB703468-EC04-4158-A589-073CAA52727C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Our_Game</RootNamespace>
+    <AssemblyName>Our_game</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MixedRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>emblem-games.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColourProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Save.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Save.Designer.cs">
+      <DependentUpon>Save.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Load.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Load.Designer.cs">
+      <DependentUpon>Load.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Save.resx">
+      <DependentUpon>Save.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Load.resx">
+      <DependentUpon>Load.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\scroll_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleaxe-undead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axe-crude.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ballista.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_polished.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_steel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_tower.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_tower_merfolk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shield_wooden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver_buckler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skull_ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\steel_armor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stone_ring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tunic_elven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\amla-default.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ankh_necklace.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armor_leather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\armor-chain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\book2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boots_elven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\breastplate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\circlet_winged.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloak_leather_brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coins_copper.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crossed_sword_and_hammer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuirass_leather_studded.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuirass_muscled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dress_silk_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\greaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hat-huntsman.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_bascinet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_chain-coif.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_conical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_corinthian.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_crested.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_frogmouth.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_great2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_leather-cap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helmet_shiny.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\herb-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\instrument_kantele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jewelry_butterfly_pin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jewelry_necklace_amber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jewelry_ring_prismatic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\key_silver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\letter_and_ale.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orc_roundshield.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_green_medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_green_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_red_medium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\potion_red_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ring_gold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rusty_targ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sandals.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\axe-undead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dagger-undead.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword-human.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sword-holy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SCIMITAR.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff-plague.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff-magic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff-green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\staff-ruby.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mace-spiked.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MACE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battleaxe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CLUB.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dagger-orcish.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PIKE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii-defend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii-sword-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii-sword-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii-sword-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\haldric-ii-sword-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-attack-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-attack-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-attack-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-attack-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-defend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess-idle-6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\human-princess.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FIREBALL.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fire-blast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dark-missile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\faerie-fire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\waterspray.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICEBALL.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lightbeam.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WAIL.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CURSE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fist-human.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\touch-faerie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHIP.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAZE.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swamp-031.jpg" />
+    <None Include="Resources\swamp-021.jpg" />
+    <None Include="Resources\swamp-011.jpg" />
+    <None Include="Resources\spectre-se-attack-8.png" />
+    <None Include="Resources\spectre-se-attack-7.png" />
+    <None Include="Resources\spectre-se-attack-6.png" />
+    <None Include="Resources\spectre-se-attack-5.png" />
+    <None Include="Resources\spectre-se-attack-4.png" />
+    <None Include="Resources\spectre-se-attack-3.png" />
+    <None Include="Resources\spectre-se-attack-2.png" />
+    <None Include="Resources\spectre-se-attack-1.png" />
+    <None Include="Resources\spectre-se-attack-12.png" />
+    <None Include="Resources\spectre-se-attack-11.png" />
+    <None Include="Resources\spectre-se-attack-10.png" />
+    <None Include="Resources\spectre-se-attack-9.png" />
+    <None Include="Resources\thrasher-blade-6.png" />
+    <None Include="Resources\thrasher-blade-5.png" />
+    <None Include="Resources\thrasher-blade-4.png" />
+    <None Include="Resources\thrasher-blade-3.png" />
+    <None Include="Resources\thrasher-blade.png" />
+    <None Include="Resources\revenant.png" />
+    <None Include="Resources\revenant-attack-8.png" />
+    <None Include="Resources\revenant-attack-7.png" />
+    <None Include="Resources\revenant-attack-6.png" />
+    <None Include="Resources\revenant-attack-5.png" />
+    <None Include="Resources\skeleton.png" />
+    <None Include="Resources\skeleton-se-melee6.png" />
+    <None Include="Resources\skeleton-se-melee5.png" />
+    <None Include="Resources\skeleton-se-melee4.png" />
+    <None Include="Resources\skeleton-se-melee3.png" />
+    <None Include="Resources\skirmisher-se-melee5.png" />
+    <None Include="Resources\skirmisher-se-melee4.png" />
+    <None Include="Resources\skirmisher-se-melee3.png" />
+    <None Include="Resources\skirmisher-se-melee2.png" />
+    <None Include="Resources\skirmisher-se-melee1.png" />
+    <None Include="Resources\shyde.png" />
+    <None Include="Resources\sharpshooter+female-sword-2.png" />
+    <None Include="Resources\shyde-healing9.png" />
+    <None Include="Resources\shyde-ftouch-attack3.png" />
+    <None Include="Resources\shyde-ftouch-attack2.png" />
+    <None Include="Resources\shyde-ftouch-attack1.png" />
+    <None Include="Resources\ranger+female-bow-attack2.png" />
+    <None Include="Resources\sharpshooter+female-bow-attack4.png" />
+    <None Include="Resources\sharpshooter+female-bow-attack3.png" />
+    <None Include="Resources\sharpshooter+female-bow-attack2.png" />
+    <None Include="Resources\sharpshooter+female-bow-attack1.png" />
+    <None Include="Resources\sharpshooter.png" />
+    <None Include="Resources\thunderguard-se-blade7.png" />
+    <None Include="Resources\thunderguard-se-blade6.png" />
+    <None Include="Resources\thunderguard-se-blade5.png" />
+    <None Include="Resources\thunderguard-se-blade4.png" />
+    <None Include="Resources\thunderguard-se-blade3.png" />
+    <None Include="Resources\thunderer-se-blade8.png" />
+    <None Include="Resources\thunderer-se-blade7.png" />
+    <None Include="Resources\thunderer-se-blade6.png" />
+    <None Include="Resources\thunderer-se-blade5.png" />
+    <None Include="Resources\thunderer-se-blade2.png" />
+    <None Include="Resources\steelclad-se-bob1.png" />
+    <None Include="Resources\ulfserker-attack-6.png" />
+    <None Include="Resources\ulfserker-attack-5.png" />
+    <None Include="Resources\ulfserker-attack-4.png" />
+    <None Include="Resources\ulfserker-attack-3.png" />
+    <None Include="Resources\ulfserker-attack-1.png" />
+    <None Include="Resources\steelclad.png" />
+    <None Include="Resources\steelclad-se-axe5.png" />
+    <None Include="Resources\steelclad-se-axe4.png" />
+    <None Include="Resources\steelclad-se-axe3.png" />
+    <None Include="Resources\steelclad-se-axe2.png" />
+    <None Include="Resources\runesmith-attack-se-8.png" />
+    <None Include="Resources\runesmith-attack-se-7.png" />
+    <None Include="Resources\runesmith-attack-se-6.png" />
+    <None Include="Resources\runesmith-attack-se-5.png" />
+    <None Include="Resources\runesmith-attack-se-4.png" />
+    <None Include="Resources\whelp-attack-3.png" />
+    <None Include="Resources\whelp-attack-2.png" />
+    <None Include="Resources\whelp-attack-1.png" />
+    <None Include="Resources\whelp.png" />
+    <None Include="Resources\warrior-attack-12 %285%29.png" />
+    <None Include="Resources\warrior-attack-12 %284%29.png" />
+    <None Include="Resources\warrior-attack-12 %283%29.png" />
+    <None Include="Resources\warrior-attack-12 %282%29.png" />
+    <None Include="Resources\warrior-attack-12 %281%29.png" />
+    <None Include="Resources\troll-hero.png" />
+    <None Include="Resources\troll-hero-attack-se-5.png" />
+    <None Include="Resources\troll-hero-attack-se-4.png" />
+    <None Include="Resources\troll-hero-attack-se-3.png" />
+    <None Include="Resources\troll-hero-attack-se-2.png" />
+    <None Include="Resources\troll-hero-attack-se-1.png" />
+    <None Include="Resources\shaman-fist-4.png" />
+    <None Include="Resources\shaman-fist-3.png" />
+    <None Include="Resources\shaman-fist-2.png" />
+    <None Include="Resources\shaman-fist-1.png" />
+    <None Include="Resources\shaman.png" />
+    <None Include="Resources\xbowman-melee-attack-4.png" />
+    <None Include="Resources\xbowman-melee-attack-3.png" />
+    <None Include="Resources\xbowman-melee-attack-2.png" />
+    <None Include="Resources\xbowman-melee-attack-1.png" />
+    <None Include="Resources\xbowman-melee.png" />
+    <None Include="Resources\warrior-attack-5.png" />
+    <None Include="Resources\warrior-attack-4.png" />
+    <None Include="Resources\warrior-attack-3.png" />
+    <None Include="Resources\warrior-attack-2.png" />
+    <None Include="Resources\warrior-attack-1.png" />
+    <None Include="Resources\warrior.png" />
+    <None Include="Resources\young-ogre-attack4.png" />
+    <None Include="Resources\young-ogre-attack3.png" />
+    <None Include="Resources\young-ogre-attack2.png" />
+    <None Include="Resources\young-ogre-attack1.png" />
+    <None Include="Resources\young-ogre.png" />
+    <None Include="Resources\peasant-attack5.png" />
+    <None Include="Resources\peasant-attack4.png" />
+    <None Include="Resources\peasant-attack3.png" />
+    <None Include="Resources\peasant-attack2.png" />
+    <None Include="Resources\peasant-attack1.png" />
+    <None Include="Resources\peasant-attack.png" />
+    <None Include="Resources\peasant.png" />
+    <None Include="Resources\vodorastvorimaya-bumaga-s-risunkom-serdechki-fon-216h139-mm.jpg" />
+    <None Include="Resources\impaler-attack-n.png" />
+    <None Include="Resources\impaler-attack-ne.png" />
+    <None Include="Resources\landscape-bridge_sun.jpg" />
+    <None Include="Resources\landscape-castle.jpg" />
+    <None Include="Resources\landscape-battlefield.jpg" />
+    <None Include="Resources\12447017.jpg" />
+    <None Include="Resources\landscape-mountains-01.jpg" />
+    <None Include="Resources\fencer-attack-7.png" />
+    <None Include="Resources\fencer-attack-8.png" />
+    <None Include="Resources\fencer-attack-9.png" />
+    <None Include="Resources\fencer.png" />
+    <None Include="Resources\fencer-attack-1.png" />
+    <None Include="Resources\fencer-attack-2.png" />
+    <None Include="Resources\fencer-attack-3.png" />
+    <None Include="Resources\fencer-attack-4.png" />
+    <None Include="Resources\fencer-attack-5.png" />
+    <None Include="Resources\fencer-attack-6.png" />
+    <None Include="Resources\heavyinfantry.png" />
+    <None Include="Resources\heavyinfantry-attack-1.png" />
+    <None Include="Resources\heavyinfantry-attack-2.png" />
+    <None Include="Resources\heavyinfantry-attack-3.png" />
+    <None Include="Resources\heavyinfantry-attack-4.png" />
+    <None Include="Resources\heavyinfantry-attack-5.png" />
+    <None Include="Resources\heavyinfantry-attack-6.png" />
+    <None Include="Resources\heavyinfantry-attack-7.png" />
+    <None Include="Resources\heavyinfantry-attack-8.png" />
+    <None Include="Resources\heavyinfantry-attack-9.png" />
+    <None Include="Resources\heavyinfantry-attack-10.png" />
+    <None Include="Resources\heavyinfantry-attack-11.png" />
+    <None Include="Resources\heavyinfantry-attack-12.png" />
+    <None Include="Resources\heavyinfantry-attack-13.png" />
+    <None Include="Resources\heavyinfantry-attack-14.png" />
+    <None Include="Resources\heavyinfantry-attack-15.png" />
+    <None Include="Resources\ogre.png" />
+    <None Include="Resources\ogre-attack1.png" />
+    <None Include="Resources\ogre-attack2.png" />
+    <None Include="Resources\ogre-attack3.png" />
+    <None Include="Resources\ogre-attack4.png" />
+    <None Include="Resources\ogre-attack5.png" />
+    <None Include="Resources\leader.png" />
+    <None Include="Resources\leader-attack-1.png" />
+    <None Include="Resources\leader-attack-2.png" />
+    <None Include="Resources\leader-attack-3.png" />
+    <None Include="Resources\leader-attack-4.png" />
+    <None Include="Resources\leader-attack-5.png" />
+    <None Include="Resources\nightblade.png" />
+    <None Include="Resources\nightblade-attack-se1.png" />
+    <None Include="Resources\nightblade-attack-se2.png" />
+    <None Include="Resources\nightblade-attack-se3.png" />
+    <None Include="Resources\nightblade-attack-se4.png" />
+    <None Include="Resources\nightblade-attack-se5.png" />
+    <None Include="Resources\nightblade-attack-se6.png" />
+    <None Include="Resources\nightblade-attack-se7.png" />
+    <None Include="Resources\nightblade-attack-se8.png" />
+    <None Include="Resources\nightblade-attack-se9.png" />
+    <None Include="Resources\il_570xN.1008656853_adxp.jpg" />
+    <None Include="Resources\a2a1ef4d0fdbbdc2da71a2432c35bd09.jpg" />
+    <None Include="Resources\grunt.png" />
+    <None Include="Resources\grunt-attack-1.png" />
+    <None Include="Resources\grunt-attack-2.png" />
+    <None Include="Resources\grunt-attack-3.png" />
+    <None Include="Resources\grunt-attack-4.png" />
+    <None Include="Resources\explorer-melee-1.png" />
+    <None Include="Resources\explorer-melee-2.png" />
+    <None Include="Resources\explorer-melee-3.png" />
+    <None Include="Resources\explorer-melee-4.png" />
+    <None Include="Resources\explorer-melee-5.png" />
+    <None Include="Resources\fighter-se-axe2.png" />
+    <None Include="Resources\fighter-se-axe3.png" />
+    <None Include="Resources\fighter-se-axe4.png" />
+    <None Include="Resources\fighter-se-axe5.png" />
+    <None Include="Resources\fighter.png" />
+    <None Include="Resources\guard-attack-1.png" />
+    <None Include="Resources\guard-attack-2.png" />
+    <None Include="Resources\guard-attack-3.png" />
+    <None Include="Resources\guard-attack-4.png" />
+    <None Include="Resources\guard-attack-5.png" />
+    <None Include="Resources\lord-se-axe2.png" />
+    <None Include="Resources\lord-se-axe3.png" />
+    <None Include="Resources\lord-se-axe4.png" />
+    <None Include="Resources\lord-se-axe5.png" />
+    <None Include="Resources\guard-bob-5.png" />
+    <None Include="Resources\lord.png" />
+    <None Include="Resources\berserker-attack-1.png" />
+    <None Include="Resources\berserker-attack-2.png" />
+    <None Include="Resources\berserker-attack-3.png" />
+    <None Include="Resources\berserker-attack-4.png" />
+    <None Include="Resources\berserker-attack-5.png" />
+    <None Include="Resources\archer-sword.png" />
+    <None Include="Resources\archer-sword-1.png" />
+    <None Include="Resources\archer-sword-2.png" />
+    <None Include="Resources\archer-sword-3.png" />
+    <None Include="Resources\archer-sword-defend.png" />
+    <None Include="Resources\avenger-sword.png" />
+    <None Include="Resources\avenger-sword-1.png" />
+    <None Include="Resources\avenger-sword-2.png" />
+    <None Include="Resources\avenger-sword-3.png" />
+    <None Include="Resources\avenger-sword-defend.png" />
+    <None Include="Resources\champion.png" />
+    <None Include="Resources\champion-attack-2.png" />
+    <None Include="Resources\champion-attack-3.png" />
+    <None Include="Resources\champion-attack-4.png" />
+    <None Include="Resources\champion-attack-5.png" />
+    <None Include="Resources\champion-bow.png" />
+    <None Include="Resources\champion-bow-attack1.png" />
+    <None Include="Resources\champion-bow-attack2.png" />
+    <None Include="Resources\champion-bow-attack3.png" />
+    <None Include="Resources\champion-bow-attack4.png" />
+    <None Include="Resources\druid.png" />
+    <None Include="Resources\druid-attack.png" />
+    <None Include="Resources\druid-defend-2.png" />
+    <None Include="Resources\enchantress.png" />
+    <None Include="Resources\enchantress-melee-2.png" />
+    <None Include="Resources\enchantress-melee-3.png" />
+    <None Include="Resources\enchantress-melee-4.png" />
+    <None Include="Resources\enchantress-melee-5.png" />
+    <None Include="Resources\hero-defend.png" />
+    <None Include="Resources\hero-melee-1.png" />
+    <None Include="Resources\hero-melee-2.png" />
+    <None Include="Resources\hero-melee-3.png" />
+    <None Include="Resources\hero-melee-4.png" />
+    <None Include="Resources\high-lord.png" />
+    <None Include="Resources\high-lord-attack-sword-1.png" />
+    <None Include="Resources\high-lord-attack-sword-2.png" />
+    <None Include="Resources\marksman.png" />
+    <None Include="Resources\marksman+female-bow.png" />
+    <None Include="Resources\marksman+female-bow-attack1.png" />
+    <None Include="Resources\marksman+female-bow-attack2.png" />
+    <None Include="Resources\marksman+female-bow-attack4.png" />
+    <None Include="Resources\marshal-melee-2.png" />
+    <None Include="Resources\marshal.png" />
+    <None Include="Resources\marshal-melee-1.png" />
+    <None Include="Resources\ambusher-se-melee1.png" />
+    <None Include="Resources\ambusher-se-melee2.png" />
+    <None Include="Resources\ambusher-se-melee3.png" />
+    <None Include="Resources\ambusher-se-melee4.png" />
+    <None Include="Resources\ambusher.png" />
+    <None Include="Resources\flanker.png" />
+    <None Include="Resources\flanker-se-melee1.png" />
+    <None Include="Resources\flanker-se-melee2.png" />
+    <None Include="Resources\flanker-se-melee3.png" />
+    <None Include="Resources\flanker-se-melee4.png" />
+    <None Include="Resources\banebow.png" />
+    <None Include="Resources\banebow-bow.png" />
+    <None Include="Resources\banebow-bow-attack-1.png" />
+    <None Include="Resources\banebow-bow-attack-2.png" />
+    <None Include="Resources\banebow-bow-attack-3.png" />
+    <None Include="Resources\deathblade.png" />
+    <None Include="Resources\deathblade-attack1.png" />
+    <None Include="Resources\deathblade-attack2.png" />
+    <None Include="Resources\deathblade-attack3.png" />
+    <None Include="Resources\deathblade-defend-1.png" />
+    <None Include="Resources\deathknight-lead-2.png" />
+    <None Include="Resources\deathknight-melee-attack-1.png" />
+    <None Include="Resources\deathknight-melee-attack-2.png" />
+    <None Include="Resources\deathknight-melee-attack-3.png" />
+    <None Include="Resources\deathknight-melee-attack-4.png" />
+    <None Include="Resources\deathblade-idle-2.png" />
+    <None Include="Resources\arbiter-blade-se-1.png" />
+    <None Include="Resources\arbiter-blade-se-2.png" />
+    <None Include="Resources\arbiter-blade-se-3.png" />
+    <None Include="Resources\arbiter-blade-se-4.png" />
+    <None Include="Resources\arbiter-blade-se-5.png" />
+    <None Include="Resources\armageddon-melee-1.png" />
+    <None Include="Resources\armageddon-melee-2.png" />
+    <None Include="Resources\armageddon-melee-3.png" />
+    <None Include="Resources\armageddon-melee-4.png" />
+    <None Include="Resources\armageddon-melee-5.png" />
+    <None Include="Resources\arbiter-pierce-s-4.png" />
+    <None Include="Resources\fire-fire-inhale-3.png" />
+    <None Include="Resources\fire-fire-inhale-4.png" />
+    <None Include="Resources\fire-fire-se-2.png" />
+    <None Include="Resources\fire-fire-se-3.png" />
+    <None Include="Resources\fire.png" />
+    <None Include="Resources\grim-altar1.jpg" />
+    <None Include="Resources\landscape-battlefield1.jpg" />
+    <None Include="Resources\landscape-battlefield_nohumans1.jpg" />
+    <None Include="Resources\landscape-bridge1.jpg" />
+    <None Include="Resources\landscape-bridge_sun1.jpg" />
+    <None Include="Resources\landscape-castle1.jpg" />
+    <None Include="Resources\landscape-coast1.jpg" />
+    <None Include="Resources\landscape-hills-011.jpg" />
+    <None Include="Resources\landscape-hills-021.jpg" />
+    <None Include="Resources\landscape-mountains-011.jpg" />
+    <None Include="Resources\landscape-mountains-021.jpg" />
+    <None Include="Resources\landscape-mountains-031.jpg" />
+    <None Include="Resources\landscape-mountains-041.jpg" />
+    <None Include="Resources\landscape-mountains-051.jpg" />
+    <None Include="Resources\landscape-plain1.jpg" />
+    <None Include="Resources\landscape-bridge_sun2.jpg" />
+    <Content Include="emblem-games.ico" />
+    <Content Include="Resources\OneDrive.ico" />
+    <None Include="Resources\impaler-death-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,1261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grunt_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grunt-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="herb_bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\herb-bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-coast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-coast1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="high_lord_attack_sword_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\high-lord-attack-sword-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dagger_orcish" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dagger-orcish.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_blade_se_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-blade-se-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shaman_fist_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shaman-fist-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger_sword_defend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avenger-sword-defend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-battlefield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-battlefield1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess_defend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess-defend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shyde_ftouch_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shyde-ftouch-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="key_silver" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\key_silver.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sharpshooter_female_bow_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpshooter+female-bow-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grunt_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grunt-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_melee_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer-melee-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger_sword_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avenger-sword-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="amla_default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\amla-default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PIKE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PIKE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre_attack5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre-attack5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berserker_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berserker-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_bow_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-bow-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armageddon_melee_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armageddon-melee-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ring_gold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ring_gold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_magic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff-magic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuirass_muscled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuirass_muscled.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archer_sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archer-sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord_se_axe5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord-se-axe5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flanker_se_melee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flanker-se-melee1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="circlet_winged" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\circlet_winged.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_green_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_green_medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-bridge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-bridge1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="instrument_kantele" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\instrument_kantele.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berserker_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berserker-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-12.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_plague" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff-plague.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_melee_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer-melee-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cuirass_leather_studded" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cuirass_leather_studded.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ranger_female_bow_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ranger+female-bow-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="silver_buckler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silver_buckler.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton_se_melee4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skeleton-se-melee4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flanker_se_melee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flanker-se-melee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_pierce_s_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-pierce-s-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runesmith_attack_se_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runesmith-attack-se-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_leather_cap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_leather-cap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger_sword" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avenger-sword.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_tower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield_tower.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderer_se_blade7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderer-se-blade7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbowman_melee_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbowman-melee-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_melee_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer-melee-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter_se_axe5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter-se-axe5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero_attack_se_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero-attack-se-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mace_spiked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mace-spiked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jewelry_ring_prismatic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jewelry_ring_prismatic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armageddon_melee_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armageddon-melee-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-15.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="crossed_sword_and_hammer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crossed_sword_and_hammer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchantress_melee_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchantress-melee-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbowman_melee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbowman-melee.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii_sword_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii-sword-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swamp-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swamp-021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steel_armor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steel_armor.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archer_sword_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archer-sword-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter_se_axe3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter-se-axe3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skirmisher_se_melee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skirmisher-se-melee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad_se_bob1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad-se-bob1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thrasher_blade_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thrasher-blade-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_melee_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero-melee-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="boots_elven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\boots_elven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_defend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero-defend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grunt_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grunt-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_red_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_red_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderguard_se_blade4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderguard-se-blade4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swamp-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swamp-011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_blade_se_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-blade-se-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero_attack_se_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero-attack-se-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skirmisher_se_melee4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skirmisher-se-melee4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_ogre_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-ogre-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marksman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marksman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-hills-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-hills-021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skirmisher_se_melee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skirmisher-se-melee1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_melee_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero-melee-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-mountains-02" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-mountains-021.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathblade_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathblade-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulfserker_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulfserker-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_melee_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer-melee-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="druid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\druid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_ogre_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-ogre-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ankh_necklace" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ankh_necklace.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berserker_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berserker-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marksman_female_bow_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marksman+female-bow-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii_sword_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii-sword-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_chain_coif" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_chain-coif.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CLUB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CLUB.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderer_se_blade2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderer-se-blade2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="greaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\greaves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stone_ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stone_ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton_se_melee6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skeleton-se-melee6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thrasher_blade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thrasher-blade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape_bridge_sun" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-bridge_sun.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SCIMITAR" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SCIMITAR.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_bow_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-bow-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchantress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchantress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad_se_axe3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad-se-axe3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff-green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banebow_bow_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banebow-bow-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_green_small" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_green_small.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="druid_attack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\druid-attack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-mountains-05" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-mountains-051.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MACE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MACE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_corinthian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_corinthian.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii_defend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii-defend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marshal_melee_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marshal-melee-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_human" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword-human.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton_se_melee5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skeleton-se-melee5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathblade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runesmith_attack_se_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runesmith-attack-se-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii_sword_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii-sword-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dagger_undead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dagger-undead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape_castle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-castle.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord_se_axe4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord-se-axe4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banebow_bow_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banebow-bow-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marshal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marshal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbowman_melee_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbowman-melee-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathknight_melee_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathknight-melee-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swamp-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swamp-031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad_se_axe5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad-se-axe5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sharpshooter_female_bow_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpshooter+female-bow-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archer_sword_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archer-sword-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flanker_se_melee4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flanker-se-melee4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rusty_targ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rusty_targ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambusher_se_melee1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambusher-se-melee1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sandals" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sandals.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marksman_female_bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marksman+female-bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banebow_bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banebow-bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathknight_lead_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathknight-lead-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_steel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield_steel.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad_se_axe4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad-se-axe4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shyde_ftouch_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shyde-ftouch-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whelp_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whelp-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jewelry_necklace_amber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jewelry_necklace_amber.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchantress_melee_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchantress-melee-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_fire_inhale_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-fire-inhale-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_melee_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero-melee-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runesmith_attack_se_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runesmith-attack-se-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shyde" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shyde.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_attack_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant-attack-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grunt_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grunt-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="touch_faerie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\touch-faerie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shaman_fist_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shaman-fist-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sharpshooter_female_bow_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpshooter+female-bow-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_blade_se_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-blade-se-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero_attack_se_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero-attack-se-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_ogre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-ogre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulfserker_attack_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulfserker-attack-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skirmisher_se_melee5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skirmisher-se-melee5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderguard_se_blade6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderguard-se-blade6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skeleton.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="il_570xN_1008656853_adxp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\il_570xN.1008656853_adxp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchantress_melee_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchantress-melee-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_chain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armor-chain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathblade_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathblade-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sword_holy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sword-holy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbowman_melee_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbowman-melee-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_blade_se_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-blade-se-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-mountains-04" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-mountains-041.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="high_lord_attack_sword_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\high-lord-attack-sword-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger_sword_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avenger-sword-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-14.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_polished" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield_polished.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_ogre_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-ogre-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grim-altar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grim-altar1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cloak_leather_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cloak_leather_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_12__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-12 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_bow_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-bow-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderguard_se_blade5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderguard-se-blade5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="axe_undead" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\axe-undead.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii_sword_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii-sword-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulfserker_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulfserker-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_frogmouth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_frogmouth.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arbiter_blade_se_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arbiter-blade-se-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-mountains-03" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-mountains-031.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thrasher_blade_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thrasher-blade-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bag.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WHIP" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WHIP.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berserker_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berserker-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dress_silk_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dress_silk_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-mountains-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-mountains-011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banebow_bow_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banebow-bow-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderer_se_blade8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderer-se-blade8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathknight_melee_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathknight-melee-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_12__5_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-12 (5).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_bow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-bow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armor_leather" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armor_leather.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skull_ring" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skull_ring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shaman" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shaman.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sharpshooter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpshooter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sharpshooter_female_bow_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sharpshooter+female-bow-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thrasher_blade_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thrasher-blade-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impaler_attack_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\impaler-attack-n.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shyde_healing9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shyde-healing9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marksman_female_bow_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marksman+female-bow-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambusher_se_melee3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambusher-se-melee3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runesmith_attack_se_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runesmith-attack-se-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_12__3_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-12 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-plain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-plain1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archer_sword_defend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archer-sword-defend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="jewelry_butterfly_pin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\jewelry_butterfly_pin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tunic_elven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tunic_elven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skeleton_se_melee3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skeleton-se-melee3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whelp_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whelp-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord_se_axe3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord-se-axe3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderguard_se_blade3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderguard-se-blade3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_tower_merfolk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield_tower_merfolk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shield_wooden" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shield_wooden.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="haldric_ii" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\haldric-ii.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shaman_fist_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shaman-fist-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orc_roundshield" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orc_roundshield.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero_attack_se_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero-attack-se-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulfserker_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulfserker-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-hills-01" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-hills-011.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whelp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shyde_ftouch_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shyde-ftouch-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="whelp_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\whelp-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_bascinet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_bascinet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="skirmisher_se_melee3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\skirmisher-se-melee3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="xbowman_melee_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xbowman-melee-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flanker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flanker.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="staff_ruby" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\staff-ruby.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathknight_melee_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathknight-melee-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shaman_fist_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shaman-fist-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scroll_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scroll_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="young_ogre_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\young-ogre-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre_attack4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre-attack4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armageddon_melee_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armageddon-melee-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderguard_se_blade7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderguard-se-blade7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marksman_female_bow_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marksman+female-bow-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_fire_inhale_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-fire-inhale-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a2a1ef4d0fdbbdc2da71a2432c35bd09" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a2a1ef4d0fdbbdc2da71a2432c35bd09.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathblade_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathblade-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathblade_defend_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathblade-defend-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambusher_se_melee2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambusher-se-melee2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avenger_sword_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avenger-sword-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impaler_attack_ne" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\impaler-attack-ne.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_great2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_great2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="troll_hero_attack_se_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\troll-hero-attack-se-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="berserker_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\berserker-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_bow_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-bow-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="GAZE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GAZE.PNG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_attack_8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant-attack-8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter_se_axe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter-se-axe2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-11.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armageddon_melee_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armageddon-melee-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_fire_se_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-fire-se-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="steelclad_se_axe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\steelclad-se-axe2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="marshal_melee_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\marshal-melee-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderer_se_blade6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderer-se-blade6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fencer_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fencer-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thrasher_blade_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thrasher-blade-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="revenant_attack_6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\revenant-attack-6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flanker_se_melee3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flanker-se-melee3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banebow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banebow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="potion_red_medium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\potion_red_medium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="runesmith_attack_se_7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\runesmith-attack-se-7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="breastplate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\breastplate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_bob_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-bob-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="impaler" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\impaler-death-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ulfserker_attack_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ulfserker-attack-5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="explorer_melee_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\explorer-melee-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fighter_se_axe4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fighter-se-axe4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="champion_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\champion-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_12__4_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-12 (4).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="deathknight_melee_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deathknight-melee-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="battleaxe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\battleaxe.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre_attack2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre-attack2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fire_fire_se_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fire-fire-se-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="leader_attack_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\leader-attack-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_crested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_crested.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grunt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\grunt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="enchantress_melee_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\enchantress-melee-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambusher_se_melee4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambusher-se-melee4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ambusher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ambusher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-battlefield_nohumans" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-battlefield_nohumans1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="archer_sword_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\archer-sword-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thunderer_se_blade5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thunderer-se-blade5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_shiny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_shiny.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="warrior_attack_12__2_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\warrior-attack-12 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nightblade_attack_se8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nightblade-attack-se8.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guard_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guard-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ballista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ballista.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="spectre_se_attack_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\spectre-se-attack-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="druid_defend_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\druid-defend-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="helmet_conical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\helmet_conical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="heavyinfantry_attack_13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\heavyinfantry-attack-13.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ogre_attack1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ogre-attack1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="peasant_attack5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\peasant-attack5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hero_melee_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hero-melee-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="armageddon_melee_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\armageddon-melee-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="high_lord" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\high-lord.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="lord_se_axe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lord-se-axe2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="human_princess_attack_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\human-princess-attack-4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="landscape-bridge_sun1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\landscape-bridge_sun2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
